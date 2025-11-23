@@ -36,7 +36,7 @@ Eğittiğim modeli, ayırdığım **Test** verileri üzerinde denedim.
 Tüm değişkenlerin birbiriyle olan ilişkisini görmek için bir **Isı Haritası (Heatmap)** çizdirdim.
 - Tablodaki mavi renkler ilişkinin düşük olduğunu, kırmızı renkler yüksek olduğunu gösterir.
 - Bizim tablomuzda çoğu yerin mavi olması, veri setindeki özelliklerin birbirini çok keskin etkilemediğini kanıtlamış oldu.
-![Heatmap](heatmap.png)
+![grafik3](grafik3.png)
 
 ### 6. Tahmin Denemesi (6. Kod Kutusu)
 Son olarak modelin çalışıp çalışmadığını görmek için sisteme rastgele bir **Nem (Humidity)** değeri girdim ve modelin bana o nem oranında havadaki NO2 miktarının ne olacağını tahmin etmesini sağladım.
