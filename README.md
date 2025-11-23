@@ -32,7 +32,7 @@ Proje geliştirilirken aşağıdaki adımlar izlenmiştir:
 ### 2. Keşifçi Veri Analizi (EDA)
 * Değişkenler arasındaki ilişkileri görmek için **Korelasyon Matrisi (Heatmap)** çizdirildi.
 * **Bulgu:** Nem (Humidity) ile NO2 arasında çok düşük bir ilişki (0.01) olduğu gözlemlendi.
-![Heatmap](heatmap.png)
+![grafik3](grafik3.png)
 
 ### 3. Model Seçimi ve Eğitimi
 * **Model:** `Linear Regression` (Doğrusal Regresyon)
