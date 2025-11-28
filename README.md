@@ -14,7 +14,7 @@ Proje adımlarım ve kod bloklarında yaptıklarım sırasıyla aşağıdadır:
 - Sütun isimlerini temizledim.
 - Hedefim `NO2` (Azot Dioksit) miktarını tahmin etmekti. Ancak veri setinde cevabın kendisini barındıran (kopya veren) `AQI` sütunlarını analizinden çıkardım.
 
-![KOD BLOĞU](ss1.png)
+![KOD BLOĞU1](ss1.png)
 
 ### 2. En Önemli Özelliği Bulma ve Görselleştirme
 Burada, NO2 kirliliğini en çok etkileyen özelliğin ne olduğunu bulmak için **korelasyon** (ilişki) analizi yaptım.
