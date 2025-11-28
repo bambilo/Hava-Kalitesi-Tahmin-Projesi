@@ -10,7 +10,8 @@ Proje adımlarım ve kod bloklarında yaptıklarım sırasıyla aşağıdadır:
 İlk olarak **Pandas, Numpy, Matplotlib** gibi gerekli kütüphaneleri projeme dahil ettim.
 - `data.csv` dosyasını okuyup tablo haline getirdim.
 - Sütun isimlerini temizledim.
-- Hedefim `NO2` (Azot Dioksit) miktarını tahmin etmekti. Ancak veri setinde cevabın kendisini barındıran (kopya veren) `AQI` sütunlarını     analizden çıkardım.
+- Hedefim `NO2` (Azot Dioksit) miktarını tahmin etmekti. Ancak veri setinde cevabın kendisini barındıran (kopya veren) `AQI` sütunlarını analizinden çıkardım.
+
 ![KOD BLOĞU](ss1.png)
 
 ### 2. En Önemli Özelliği Bulma ve Görselleştirme
