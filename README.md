@@ -1,16 +1,16 @@
-# 🌍 Hava Kalitesi (NO2) Tahmin Projesi
+# Hava Kalitesi (NO2) Tahmin Projesi
 
 Bu projede, Avrupa'daki hava kalitesi verilerini kullanarak, hava durumunun (nem, sıcaklık vb.) kirlilik üzerindeki etkisini inceledim ve bir **Makine Öğrenmesi (Lineer Regresyon)** modeli geliştirdim.
 
-Proje adımlarım ve kod bloklarında (kutucuklarda) yaptıklarım sırasıyla aşağıdadır:
+Proje adımlarım ve kod bloklarında yaptıklarım sırasıyla aşağıdadır:
 
 ---
 
-### 1. Veri Yükleme ve Hazırlık (1. Kod Kutusu)
+### 1. Veri Yükleme ve Hazırlık
 İlk olarak **Pandas, Numpy, Matplotlib** gibi gerekli kütüphaneleri projeme dahil ettim.
 - `data.csv` dosyasını okuyup tablo haline getirdim.
 - Sütun isimlerini temizledim.
-- **Önemli:** Hedefim `NO2` (Azot Dioksit) miktarını tahmin etmekti. Ancak veri setinde cevabın kendisini barındıran (kopya veren) `AQI` sütunlarını analizden çıkardım.
+- Hedefim `NO2` (Azot Dioksit) miktarını tahmin etmekti. Ancak veri setinde cevabın kendisini barındıran (kopya veren) `AQI` sütunlarını analizden çıkardım.(ss1.png)
 
 ### 2. En Önemli Özelliği Bulma ve Görselleştirme (2. Kod Kutusu)
 Burada, NO2 kirliliğini en çok etkileyen özelliğin ne olduğunu bulmak için **korelasyon** (ilişki) analizi yaptım.
