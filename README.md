@@ -46,6 +46,7 @@ Tüm değişkenlerin birbiriyle olan ilişkisini görmek için bir **Isı Harita
 
 ### 6. Tahmin Denemesi
 Son olarak modelin çalışıp çalışmadığını görmek için sisteme rastgele bir **Nem** değeri girdim ve modelin bana o nem oranında havadaki NO2 miktarının ne olacağını tahmin etmesini sağladım.
+
 ![KOD BLOĞU](ss4.png)
 
 ---
