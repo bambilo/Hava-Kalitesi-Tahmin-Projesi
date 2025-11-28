@@ -24,12 +24,14 @@ Burada, NO2 kirliliğini en çok etkileyen özelliğin ne olduğunu bulmak için
 
 **Grafik Yorumu:**
 Aşağıdaki grafikte, nem oranının artışına göre kirliliğin nasıl dağıldığını görüyoruz. Renkler hava kalitesinin iyi veya kötü olduğunu gösteriyor. Verilerin çok dağınık olması, net bir çizgi olmadığını gösteriyor.
+
 ![Scatter Plot](grafik1.png)
 
 ### 3. Modeli Kurma ve Eğitme
 Makine öğrenmesi modelimi burada kurdum.
 - Veriyi **%80 Eğitim (Train)** ve **%20 Test** olarak ikiye böldüm. Bunu yapmamın sebebi, modelin ezber yapmasını önlemek ve görmediği verilerle test etmekti.
 - **Linear Regression (Doğrusal Regresyon)** modelini seçip eğitim verisiyle eğittim.Tahmin edeceğim değer bir sınıf değil, sayısal bir değer olduğu için model olarak Linear Regression algoritmasını seçtim.
+
 ![KOD BLOĞU](ss3.png)
 
 ### 4. Test Etme ve Sonuç Grafiği
