@@ -41,7 +41,7 @@ Eğittiğim modeli, ayırdığım **Test** verileri üzerinde denedim.
 ### 5. Detaylı İlişki Analizi
 Tüm değişkenlerin birbiriyle olan ilişkisini görmek için bir **Isı Haritası** çizdirdim.
 - Tablodaki mavi renkler ilişkinin düşük olduğunu, kırmızı renkler yüksek olduğunu gösterir.
-- Bizim tablomuzda çoğu yerin mavi olması, veri setindeki özelliklerin birbirini çok keskin etkilemediğini kanıtlamış oldu.
+- Bizim tablomuzda çoğu yerin mavi olması, veri setindeki özelliklerSin birbirini çok keskin etkilemediğini kanıtlamış oldu.
 ![grafik3](grafik3.png)
 
 ### 6. Tahmin Denemesi
