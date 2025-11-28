@@ -10,40 +10,40 @@ Proje adımlarım ve kod bloklarında yaptıklarım sırasıyla aşağıdadır:
 İlk olarak **Pandas, Numpy, Matplotlib** gibi gerekli kütüphaneleri projeme dahil ettim.
 - `data.csv` dosyasını okuyup tablo haline getirdim.
 - Sütun isimlerini temizledim.
-- Hedefim `NO2` (Azot Dioksit) miktarını tahmin etmekti. Ancak veri setinde cevabın kendisini barındıran (kopya veren) `AQI` sütunlarını analizden çıkardım.(ss1.png)
+- Hedefim `NO2` (Azot Dioksit) miktarını tahmin etmekti. Ancak veri setinde cevabın kendisini barındıran (kopya veren) `AQI` sütunlarını analizden çıkardım.!["KOD BLOĞU"](ss1.png)
 
-### 2. En Önemli Özelliği Bulma ve Görselleştirme (2. Kod Kutusu)
+### 2. En Önemli Özelliği Bulma ve Görselleştirme
 Burada, NO2 kirliliğini en çok etkileyen özelliğin ne olduğunu bulmak için **korelasyon** (ilişki) analizi yaptım.
-- Bilgisayar analiz sonucunda en etkili faktörün **Humidity (Nem)** olduğunu buldu.
-- Ben de Nem ile NO2 arasındaki ilişkiyi gösteren renkli bir grafik çizdirdim.
+- Bilgisayar analiz sonucunda en etkili faktörün **(Nem)** olduğunu buldu.
+- Ben de Nem ile NO2 arasındaki ilişkiyi gösteren renkli bir grafik çizdirdim.!["KOD BLOĞU"](ss2.png)
 
 **Grafik Yorumu:**
 Aşağıdaki grafikte, nem oranının artışına göre kirliliğin nasıl dağıldığını görüyoruz. Renkler hava kalitesinin iyi veya kötü olduğunu gösteriyor. Verilerin çok dağınık olması, net bir çizgi olmadığını gösteriyor.
 ![Scatter Plot](grafik1.png)
 
-### 3. Modeli Kurma ve Eğitme (3. Kod Kutusu)
+### 3. Modeli Kurma ve Eğitme
 Makine öğrenmesi modelimi burada kurdum.
 - Veriyi **%80 Eğitim (Train)** ve **%20 Test** olarak ikiye böldüm. Bunu yapmamın sebebi, modelin ezber yapmasını önlemek ve görmediği verilerle test etmekti.
-- **Linear Regression (Doğrusal Regresyon)** modelini seçip eğitim verisiyle eğittim.
+- **Linear Regression (Doğrusal Regresyon)** modelini seçip eğitim verisiyle eğittim.["KOD BLOĞU"](ss3.png)
 
-### 4. Test Etme ve Sonuç Grafiği (4. Kod Kutusu)
+### 4. Test Etme ve Sonuç Grafiği
 Eğittiğim modeli, ayırdığım **Test** verileri üzerinde denedim.
 - **Sonuç:** Modelin R2 skoru (Başarı oranı) 0'a yakın çıktı.
 - **Grafik Yorumu:** Aşağıdaki grafikte Mavi noktalar gerçek değerler, Kırmızı çizgi ise benim modelimin tahminidir. Kırmızı çizginin düz olması, modelin "Nem oranına bakarak net bir artış veya azalış bulamadım, o yüzden ortalama bir değer tahmin ediyorum" dediğini gösterir.
 ![Regression Plot](grafik2.png)
 
-### 5. Detaylı İlişki Analizi (5. Kod Kutusu - Heatmap)
-Tüm değişkenlerin birbiriyle olan ilişkisini görmek için bir **Isı Haritası (Heatmap)** çizdirdim.
+### 5. Detaylı İlişki Analizi
+Tüm değişkenlerin birbiriyle olan ilişkisini görmek için bir **Isı Haritası** çizdirdim.
 - Tablodaki mavi renkler ilişkinin düşük olduğunu, kırmızı renkler yüksek olduğunu gösterir.
 - Bizim tablomuzda çoğu yerin mavi olması, veri setindeki özelliklerin birbirini çok keskin etkilemediğini kanıtlamış oldu.
 ![grafik3](grafik3.png)
 
-### 6. Tahmin Denemesi (6. Kod Kutusu)
-Son olarak modelin çalışıp çalışmadığını görmek için sisteme rastgele bir **Nem (Humidity)** değeri girdim ve modelin bana o nem oranında havadaki NO2 miktarının ne olacağını tahmin etmesini sağladım.
+### 6. Tahmin Denemesi
+Son olarak modelin çalışıp çalışmadığını görmek için sisteme rastgele bir **Nem** değeri girdim ve modelin bana o nem oranında havadaki NO2 miktarının ne olacağını tahmin etmesini sağladım.!["KOD BLOĞU"](ss4.png)
 
 ---
 
-## 📝 Genel Sonuç
+## Genel Sonuç
 Bu proje sayesinde, elimizdeki veri setinde **Nem oranının tek başına hava kirliliğini belirlemediğini**, verilerin çok dağınık olduğunu bilimsel ve görsel olarak kanıtlamış oldum.
 
 ---
