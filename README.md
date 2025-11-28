@@ -2,6 +2,8 @@
 
 Bu projede, Avrupa'daki hava kalitesi verilerini kullanarak, hava durumunun (nem, sıcaklık vb.) kirlilik üzerindeki etkisini inceledim ve bir **Makine Öğrenmesi (Lineer Regresyon)** modeli geliştirdim.
 
+Veri Kaynağı: Kaggle - Air Quality Europe Dataset.
+
 Proje adımlarım ve kod bloklarında yaptıklarım sırasıyla aşağıdadır:
 
 ---
@@ -27,8 +29,8 @@ Aşağıdaki grafikte, nem oranının artışına göre kirliliğin nasıl dağ�
 ### 3. Modeli Kurma ve Eğitme
 Makine öğrenmesi modelimi burada kurdum.
 - Veriyi **%80 Eğitim (Train)** ve **%20 Test** olarak ikiye böldüm. Bunu yapmamın sebebi, modelin ezber yapmasını önlemek ve görmediği verilerle test etmekti.
-- **Linear Regression (Doğrusal Regresyon)** modelini seçip eğitim verisiyle eğittim.
-[KOD BLOĞU](ss3.png)
+- **Linear Regression (Doğrusal Regresyon)** modelini seçip eğitim verisiyle eğittim.Tahmin edeceğim değer bir sınıf değil, sayısal bir değer olduğu için model olarak Linear Regression algoritmasını seçtim.
+![KOD BLOĞU](ss3.png)
 
 ### 4. Test Etme ve Sonuç Grafiği
 Eğittiğim modeli, ayırdığım **Test** verileri üzerinde denedim.
