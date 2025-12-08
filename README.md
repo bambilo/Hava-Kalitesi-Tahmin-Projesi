@@ -30,6 +30,14 @@ Aşağıdaki grafikte, nem oranının artışına göre kirliliğin nasıl dağ�
 ### 3. Modeli Kurma ve Eğitme
 Makine öğrenmesi modelimi burada kurdum.
 - Veriyi **%80 Eğitim (Train)** ve **%20 Test** olarak ikiye böldüm. Bunu yapmamın sebebi, modelin ezber yapmasını önlemek ve görmediği verilerle test etmekti.
+
+## 📊 Model Karşılaştırması ve Seçimi
+
+Bu projede hava kalitesi tahmini için farklı makine öğrenmesi algoritmaları denenmiş ve performansları karşılaştırılmıştır. Aşağıdaki tabloda görüldüğü üzere, veri setimizdeki özellikler ile hedef değişken arasındaki ilişkiyi en iyi açıklayan model **Linear Regression** olmuştur.
+
+![KOD BLOĞU](ss5.png)
+
+**Sonuç:** En yüksek $R^2$ skorunu (0.82) ve en düşük hata oranlarını (MSE: 24.79) verdiği için projenin modeli olarak **Lineer Regresyon** seçtim.
 - **Linear Regression (Doğrusal Regresyon)** modelini seçip eğitim verisiyle eğittim.Tahmin edeceğim değer bir sınıf değil, sayısal bir değer olduğu için model olarak Linear Regression algoritmasını seçtim.
 
 ![KOD BLOĞU](ss3.png)
